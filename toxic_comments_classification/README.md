@@ -1,5 +1,5 @@
 # Обучение модели классификации комментариев
-## Задача проекта
+## Цель проекта
 Определение токсичности комментарии.
 ## Описание проекта
 Интернет-магазин «Викишоп» запускает новый сервис. Теперь пользователи могут редактировать и дополнять описания товаров, как в вики-сообществах. То есть клиенты предлагают свои правки и комментируют изменения других. Магазину нужен инструмент, который будет искать токсичные комментарии и отправлять их на модерацию.
@@ -14,7 +14,23 @@
 Столбец `text` содержит текст комментария, а `toxic` — целевой признак.
 
 ## Направление деятельности
-<svg width="100%"><foreignObject x="0" y="0" width="100%" height="160"><div style="display: flex; flex-wrap: wrap; padding-top: 8px; padding-bottom: 2px;"><div style="display: flex; align-items: center; flex-shrink: 1; min-width: 0px; max-width: 100%; height: 20px; border-radius: 3px; padding-left: 6px; padding-right: 6px; font-size: 14px; line-height: 120%; color: rgba(255, 255, 255, 0.804); background: rgb(133, 76, 29); margin: 0px 6px 6px 0px;"><div style="white-space: nowrap; overflow: hidden; text-overflow: ellipsis; display: inline-block; height: 20px; line-height: 20px;">NLP</div></div><div style="display: flex; align-items: center; flex-shrink: 1; min-width: 0px; max-width: 100%; height: 20px; border-radius: 3px; padding-left: 6px; padding-right: 6px; font-size: 14px; line-height: 120%; color: rgba(255, 255, 255, 0.804); background: rgb(110, 54, 48); margin: 0px 6px 6px 0px;"><div style="white-space: nowrap; overflow: hidden; text-overflow: ellipsis; display: inline-block; height: 20px; line-height: 20px;">Машинное обучение</div></div><div style="display: flex; align-items: center; flex-shrink: 1; min-width: 0px; max-width: 100%; height: 20px; border-radius: 3px; padding-left: 6px; padding-right: 6px; font-size: 14px; line-height: 120%; color: rgba(255, 255, 255, 0.804); background: rgb(90, 90, 90); margin: 0px 6px 6px 0px;"><div style="white-space: nowrap; overflow: hidden; text-overflow: ellipsis; display: inline-block; height: 20px; line-height: 20px;">Классификация</div></div></div></foreignObject></svg>
+
+<img src="https://img.shields.io/badge/NLP-rgb(133, 76, 29)?style=for-the-badge" alt="NLP" /> <img src="https://img.shields.io/badge/%D0%9C%D0%B0%D1%88%D0%B8%D0%BD%D0%BD%D0%BE%D0%B5%20%D0%BE%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5-rgb(110, 54, 48)?style=for-the-badge" alt="Машинное обучение" /> <img src="https://img.shields.io/badge/%D0%9A%D0%BB%D0%B0%D1%81%D1%81%D0%B8%D1%84%D0%B8%D0%BA%D0%B0%D1%86%D0%B8%D1%8F-rgb(90, 90, 90)?style=for-the-badge" alt="Классификация" />
 
 ## Навыки и инструменты
-<svg width="100%"><foreignObject x="0" y="0" width="100%" height="160"><div style="display: flex; flex-wrap: wrap; padding-top: 8px; padding-bottom: 2px;"><div style="display: flex; align-items: center; flex-shrink: 1; min-width: 0px; max-width: 100%; height: 20px; border-radius: 3px; padding-left: 6px; padding-right: 6px; font-size: 14px; line-height: 120%; color: rgba(255, 255, 255, 0.804); background: rgb(96, 59, 44); margin: 0px 6px 6px 0px;"><div style="white-space: nowrap; overflow: hidden; text-overflow: ellipsis; display: inline-block; height: 20px; line-height: 20px;">Python</div></div><div style="display: flex; align-items: center; flex-shrink: 1; min-width: 0px; max-width: 100%; height: 20px; border-radius: 3px; padding-left: 6px; padding-right: 6px; font-size: 14px; line-height: 120%; color: rgba(255, 255, 255, 0.804); background: rgb(137, 99, 42); margin: 0px 6px 6px 0px;"><div style="white-space: nowrap; overflow: hidden; text-overflow: ellipsis; display: inline-block; height: 20px; line-height: 20px;">Pandas</div></div><div style="display: flex; align-items: center; flex-shrink: 1; min-width: 0px; max-width: 100%; height: 20px; border-radius: 3px; padding-left: 6px; padding-right: 6px; font-size: 14px; line-height: 120%; color: rgba(255, 255, 255, 0.804); background: rgb(137, 99, 42); margin: 0px 6px 6px 0px;"><div style="white-space: nowrap; overflow: hidden; text-overflow: ellipsis; display: inline-block; height: 20px; line-height: 20px;">PyTorch</div></div><div style="display: flex; align-items: center; flex-shrink: 1; min-width: 0px; max-width: 100%; height: 20px; border-radius: 3px; padding-left: 6px; padding-right: 6px; font-size: 14px; line-height: 120%; color: rgba(255, 255, 255, 0.804); background: rgb(90, 90, 90); margin: 0px 6px 6px 0px;"><div style="white-space: nowrap; overflow: hidden; text-overflow: ellipsis; display: inline-block; height: 20px; line-height: 20px;">BERT</div></div></div></foreignObject></svg>
+
+<img src="https://img.shields.io/badge/Python-rgb(96, 59, 44)?style=for-the-badge&logo=Python" alt="Python" /> <img src="https://img.shields.io/badge/Pandas-rgb(137, 99, 42)?style=for-the-badge&logo=Pandas" alt="Pandas" /> <img src="https://img.shields.io/badge/PyTorch-rgb(137, 99, 42)?style=for-the-badge&logo=PyTorch" alt="PyTorch" /> <img src="https://img.shields.io/badge/BERT-rgb(90, 90, 90)?style=for-the-badge&logo=BERT" alt="BERT" />
+
+## Вывод проекта
+
+Целью данной работы было обучить модель классифицировать комментарии на позитивные и негативные для интернет-магазина «Викишоп». Для достижения данной цели были выполнены следующие задачи:
+
++ подготовлены и загружены данные;
++ просмотрена основная информация о данных;
++ токенизирован текст;
++ получены эмбединги;
++ данные разделены на тренировачную и тестовую выборки в соотношении 3:1:1;
++ перебором гиперпараметров найдена лучшая модель;
++ лучшая модель прошла порог.
+
+В результате данной работы получены две модели машинного обучения, которые проходят необходимый порог `f1_score` в 0.75, а значит цель работы была достигнута.

@@ -1,5 +1,5 @@
 # Исследование технологического процесса очистки золота
-## Задача проекта
+## Цель проекта
 Спрогнозировать концентрацию золота при проведении процесса очистки золота
 ## Описание данных
 Данные находятся в трёх файлах:
@@ -94,7 +94,28 @@
 <img src="https://pictures.s3.yandex.net/resources/_smape_1576238814.jpg">
 
 ## Направление деятельности
-<svg width="100%"><foreignObject x="0" y="0" width="100%" height="160"><div style="display: flex; flex-wrap: wrap; padding-top: 8px; padding-bottom: 2px;"><div style="display: flex; align-items: center; flex-shrink: 1; min-width: 0px; max-width: 100%; height: 20px; border-radius: 3px; padding-left: 6px; padding-right: 6px; font-size: 14px; line-height: 120%; color: rgba(255, 255, 255, 0.804); background: rgb(110, 54, 48); margin: 0px 6px 6px 0px;"><div style="white-space: nowrap; overflow: hidden; text-overflow: ellipsis; display: inline-block; height: 20px; line-height: 20px;">Машинное обучение</div></div><div style="display: flex; align-items: center; flex-shrink: 1; min-width: 0px; max-width: 100%; height: 20px; border-radius: 3px; padding-left: 6px; padding-right: 6px; font-size: 14px; line-height: 120%; color: rgba(255, 255, 255, 0.804); background: rgb(40, 69, 108); margin: 0px 6px 6px 0px;"><div style="white-space: nowrap; overflow: hidden; text-overflow: ellipsis; display: inline-block; height: 20px; line-height: 20px;">Аналитика</div></div><div style="display: flex; align-items: center; flex-shrink: 1; min-width: 0px; max-width: 100%; height: 20px; border-radius: 3px; padding-left: 6px; padding-right: 6px; font-size: 14px; line-height: 120%; color: rgba(255, 255, 255, 0.804); background: rgb(90, 90, 90); margin: 0px 6px 6px 0px;"><div style="white-space: nowrap; overflow: hidden; text-overflow: ellipsis; display: inline-block; height: 20px; line-height: 20px;">Регрессия</div></div></div></foreignObject></svg>
+
+<img src="https://img.shields.io/badge/%D0%9C%D0%B0%D1%88%D0%B8%D0%BD%D0%BD%D0%BE%D0%B5%20%D0%BE%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5-rgb(110, 54, 48)?style=for-the-badge" alt="Машинное обучение" /> <img src="https://img.shields.io/badge/%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D1%82%D0%B8%D0%BA%D0%B0-rgb(40, 69, 108)?style=for-the-badge" alt="Аналитика" /> <img src="https://img.shields.io/badge/%D0%A0%D0%B5%D0%B3%D1%80%D0%B5%D1%81%D1%81%D0%B8%D1%8F-rgb(90, 90, 90)?style=for-the-badge" alt="Регрессия" />
 
 ## Навыки и инструменты
-<svg width="100%"><foreignObject x="0" y="0" width="100%" height="160"><div style="display: flex; flex-wrap: wrap; padding-top: 8px; padding-bottom: 2px;"><div style="display: flex; align-items: center; flex-shrink: 1; min-width: 0px; max-width: 100%; height: 20px; border-radius: 3px; padding-left: 6px; padding-right: 6px; font-size: 14px; line-height: 120%; color: rgba(255, 255, 255, 0.804); background: rgb(96, 59, 44); margin: 0px 6px 6px 0px;"><div style="white-space: nowrap; overflow: hidden; text-overflow: ellipsis; display: inline-block; height: 20px; line-height: 20px;">Python</div></div><div style="display: flex; align-items: center; flex-shrink: 1; min-width: 0px; max-width: 100%; height: 20px; border-radius: 3px; padding-left: 6px; padding-right: 6px; font-size: 14px; line-height: 120%; color: rgba(255, 255, 255, 0.804); background: rgb(137, 99, 42); margin: 0px 6px 6px 0px;"><div style="white-space: nowrap; overflow: hidden; text-overflow: ellipsis; display: inline-block; height: 20px; line-height: 20px;">Pandas</div></div><div style="display: flex; align-items: center; flex-shrink: 1; min-width: 0px; max-width: 100%; height: 20px; border-radius: 3px; padding-left: 6px; padding-right: 6px; font-size: 14px; line-height: 120%; color: rgba(255, 255, 255, 0.804); background: rgb(105, 49, 76); margin: 0px 6px 6px 0px;"><div style="white-space: nowrap; overflow: hidden; text-overflow: ellipsis; display: inline-block; height: 20px; line-height: 20px;">Matplotlib</div></div><div style="display: flex; align-items: center; flex-shrink: 1; min-width: 0px; max-width: 100%; height: 20px; border-radius: 3px; padding-left: 6px; padding-right: 6px; font-size: 14px; line-height: 120%; color: rgba(255, 255, 255, 0.804); background: rgb(133, 76, 29); margin: 0px 6px 6px 0px;"><div style="white-space: nowrap; overflow: hidden; text-overflow: ellipsis; display: inline-block; height: 20px; line-height: 20px;">NumPy</div></div><div style="display: flex; align-items: center; flex-shrink: 1; min-width: 0px; max-width: 100%; height: 20px; border-radius: 3px; padding-left: 6px; padding-right: 6px; font-size: 14px; line-height: 120%; color: rgba(255, 255, 255, 0.804); background: rgb(137, 99, 42); margin: 0px 6px 6px 0px;"><div style="white-space: nowrap; overflow: hidden; text-overflow: ellipsis; display: inline-block; height: 20px; line-height: 20px;">Scikit-learn</div></div><div style="display: flex; align-items: center; flex-shrink: 1; min-width: 0px; max-width: 100%; height: 20px; border-radius: 3px; padding-left: 6px; padding-right: 6px; font-size: 14px; line-height: 120%; color: rgba(255, 255, 255, 0.804); background: rgb(73, 47, 100); margin: 0px 6px 6px 0px;"><div style="white-space: nowrap; overflow: hidden; text-overflow: ellipsis; display: inline-block; height: 20px; line-height: 20px;">Исследовательский анализ данных</div></div></div></foreignObject></svg>
+
+<img src="https://img.shields.io/badge/Python-rgb(96, 59, 44)?style=for-the-badge&logo=Python" alt="Python" /> <img src="https://img.shields.io/badge/Pandas-rgb(137, 99, 42)?style=for-the-badge&logo=Pandas" alt="Pandas" /> <img src="https://img.shields.io/badge/Matplotlib-rgb(105, 49, 76)?style=for-the-badge&logo=Matplotlib" alt="Matplotlib" /> <img src="https://img.shields.io/badge/NumPy-rgb(133, 76, 29)?style=for-the-badge&logo=NumPy" alt="NumPy" /> <img src="https://img.shields.io/badge/Scikit--learn-rgb(137, 99, 42)?style=for-the-badge&logo=Scikit-learn" alt="Scikit-learn" /> <img src="https://img.shields.io/badge/%D0%98%D1%81%D1%81%D0%BB%D0%B5%D0%B4%D0%BE%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D1%8C%D1%81%D0%BA%D0%B8%D0%B9%20%D0%B0%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7%20%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D1%85-rgb(73, 47, 100)?style=for-the-badge" alt="Исследовательский анализ данных" />
+
+## Вывод проекта
+
+В данной работе были взяты данные из золотодобывающей отрасли. Целью было создать модель, которая должна предсказать коэффициент восстановления золота из золотосодержащей руды. В ходе работы были выполнены следующие задачи:
+
++ изучены представленные данные;
++ проверены рассчёты эффективности обогащения;
++ проверена разница в признаках тренировачной и тестовой выборках;
++ предобработаны данные;
++ изучено изменение концентрации металлов на разных этапах очистки;
++ проведено сравнение распределения размеров сырья на разных этапах очистки;
++ исследована суммарная концентрация всех веществ на разных стадиях очистки;
++ написаны функции для вычисления sMAPE и итогового sMAPE;
++ выделены признаки и целевой признак;
++ найдены лучшие модели для целевых признаков;
++ лучшие модели обучены;
++ лучшие модели проверены итоговой метрикой на тестовой выборке.
+
+Главная цель проекта была выполнена. Модель поможет оптимизировать производство, чтобы не запускать предприятие с убыточными характеристиками.

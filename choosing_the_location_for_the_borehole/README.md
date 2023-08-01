@@ -1,5 +1,5 @@
 # Выбор локации для скважины
-## Задача проекта
+## Цель проекта
 На основе данных геологической разведки выбрать район добычи нефти
 ## Описание данных
 Данные геологоразведки трёх регионов находятся в файлах:
@@ -20,7 +20,22 @@
 Данные синтетические: детали контрактов и характеристики месторождений не разглашаются.
 
 ## Направление деятельности
-<svg width="100%"><foreignObject x="0" y="0" width="100%" height="160"><div style="display: flex; flex-wrap: wrap;"><div style="display: flex; align-items: center; flex-shrink: 1; min-width: 0px; max-width: 100%; height: 20px; border-radius: 3px; padding-left: 6px; padding-right: 6px; font-size: 14px; line-height: 120%; color: rgba(255, 255, 255, 0.804); background: rgb(110, 54, 48); margin: 0px 6px 6px 0px;"><div style="white-space: nowrap; overflow: hidden; text-overflow: ellipsis; display: inline-block; height: 20px; line-height: 20px;">Машинное обучение</div></div><div style="display: flex; align-items: center; flex-shrink: 1; min-width: 0px; max-width: 100%; height: 20px; border-radius: 3px; padding-left: 6px; padding-right: 6px; font-size: 14px; line-height: 120%; color: rgba(255, 255, 255, 0.804); background: rgb(90, 90, 90); margin: 0px 6px 6px 0px;"><div style="white-space: nowrap; overflow: hidden; text-overflow: ellipsis; display: inline-block; height: 20px; line-height: 20px;">Регрессия</div></div></div></foreignObject></svg>
+
+<img src="https://img.shields.io/badge/%D0%9C%D0%B0%D1%88%D0%B8%D0%BD%D0%BD%D0%BE%D0%B5%20%D0%BE%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5-rgb(110, 54, 48)?style=for-the-badge" alt="Машинное обучение" /> <img src="https://img.shields.io/badge/%D0%A0%D0%B5%D0%B3%D1%80%D0%B5%D1%81%D1%81%D0%B8%D1%8F-rgb(90, 90, 90)?style=for-the-badge" alt="Регрессия" />
 
 ## Навыки и инструменты
-<svg width="100%"><foreignObject x="0" y="0" width="100%" height="160"><div style="display: flex; flex-wrap: wrap; padding-top: 8px; padding-bottom: 2px;"><div style="display: flex; align-items: center; flex-shrink: 1; min-width: 0px; max-width: 100%; height: 20px; border-radius: 3px; padding-left: 6px; padding-right: 6px; font-size: 14px; line-height: 120%; color: rgba(255, 255, 255, 0.804); background: rgb(137, 99, 42); margin: 0px 6px 6px 0px;"><div style="white-space: nowrap; overflow: hidden; text-overflow: ellipsis; display: inline-block; height: 20px; line-height: 20px;">Pandas</div></div><div style="display: flex; align-items: center; flex-shrink: 1; min-width: 0px; max-width: 100%; height: 20px; border-radius: 3px; padding-left: 6px; padding-right: 6px; font-size: 14px; line-height: 120%; color: rgba(255, 255, 255, 0.804); background: rgb(137, 99, 42); margin: 0px 6px 6px 0px;"><div style="white-space: nowrap; overflow: hidden; text-overflow: ellipsis; display: inline-block; height: 20px; line-height: 20px;">Scikit-learn</div></div><div style="display: flex; align-items: center; flex-shrink: 1; min-width: 0px; max-width: 100%; height: 20px; border-radius: 3px; padding-left: 6px; padding-right: 6px; font-size: 14px; line-height: 120%; color: rgba(255, 255, 255, 0.804); background: rgb(110, 54, 48); margin: 0px 6px 6px 0px;"><div style="white-space: nowrap; overflow: hidden; text-overflow: ellipsis; display: inline-block; height: 20px; line-height: 20px;">Бутстреп</div></div></div></foreignObject></svg>
+
+<img src="https://img.shields.io/badge/Python-rgb(96, 59, 44)?style=for-the-badge&logo=Python" alt="Python" /> <img src="https://img.shields.io/badge/Pandas-rgb(137, 99, 42)?style=for-the-badge&logo=Pandas" alt="Pandas" /> <img src="https://img.shields.io/badge/Scikit--learn-rgb(137, 99, 42)?style=for-the-badge&logo=Scikit-learn" alt="Scikit-learn" /> <img src="https://img.shields.io/badge/%D0%91%D1%83%D1%82%D1%81%D1%82%D1%80%D0%B5%D0%BF-rgb(110, 54, 48)?style=for-the-badge" alt="Бутстреп" />
+
+## Вывод проекта
+
+В ходе выполнения проекта были выполнены следующие задачи:
++ изучены представленные данные;
++ выделены признаки и целевой признак;
++ данные разбиты на тренировачные и валидационные;
++ найден бюджет для выработки одной скажины и объём сырья для выхода в плюс;
++ написана функция рассчёта прибыли;
++ техникой Bootstrap найдены средняя прибыль, доверительный интервал и риски убытков;
++ на основе результатов был выбран второй регион для бурения скважин.
+
+Главная цель проекта была выполнена.
